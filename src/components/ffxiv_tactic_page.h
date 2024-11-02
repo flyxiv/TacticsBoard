@@ -6,14 +6,13 @@
 #ifndef COMPONENTS_FFXIV_TACTIC_PAGE_H
 #define COMPONENTS_FFXIV_TACTIC_PAGE_H
 
-#include "component_size.h"
+#include "ffxiv_drawing_board.h"
+#include "ffxiv_tactics_notes.h"
 
-/**
- * Defines one drawing page.
- * Page can contain drawing components like square, lines
- */
 struct FfxivTacticPage
 {
-    ComponentSize size;
+	struct FfxivDrawingBoard drawing_board;
+	struct FfxivTacticsNotes notes;
 };
+
 #endif

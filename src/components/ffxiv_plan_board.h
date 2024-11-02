@@ -10,6 +10,8 @@
 #define MAX_PALETTE_COUNT 20
 
 #include "component_size.h"
+#include "ffxiv_tactic_page.h"
+#include "ffxiv_plan_board_mode.h"
 
 /**
  * The biggest component in the Application.
@@ -17,11 +19,9 @@
  */
 struct FfxivPlanBoard
 {
-    ComponentSize size;
+	ComponentSize size;
+	FfxivTacticPage pages[MAX_PAGE_COUNT];
+	FfxivPlanBoardMode mode;
 };
-
-struct DrawComponentsContainer
-{
-}
 
 #endif
