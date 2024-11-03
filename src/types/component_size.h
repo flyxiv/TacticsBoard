@@ -13,8 +13,8 @@
  */
 struct ComponentSize
 {
-    length_type width;
-    length_type height;
+	length_type width;
+	length_type height;
 };
 
 #endif

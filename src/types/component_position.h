@@ -7,16 +7,11 @@
 #define TYPES_COMPONENT_POSITION_H
 
 #include "alias.h"
+#include "coordinate.h"
 
 /*
  * Defines types that are used to represent the position of a component.
  */
-
-struct Coordinate
-{
-	coordinate_type x;
-	coordinate_type y;
-};
 
 /*
  * All draw components have the corner points stored so that they can define their position.

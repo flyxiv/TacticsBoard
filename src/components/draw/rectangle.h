@@ -19,4 +19,6 @@ struct Rectangle
 	color_type color;
 };
 
+void update_component_position()
+
 #endif
